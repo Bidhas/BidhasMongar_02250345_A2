@@ -8,7 +8,6 @@ def bubble_sort(name_list):
         for j in range(n - i - 1):
             if arr[j] > arr[j + 1]:
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
-
     return arr
 
 
@@ -28,7 +27,6 @@ def insertion_sort(score_list):
 
         # Insert the value into correct position
         arr[j + 1] = current
-
     return arr
 
 
@@ -119,8 +117,6 @@ def main():
         if again != "y":
             print("Thank you for using the sorting program!")
             break
-
-
 # Run the program
 if __name__ == "__main__":
     main()
